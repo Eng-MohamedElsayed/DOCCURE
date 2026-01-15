@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import QuickLinks from './components/QuickLinks';
@@ -35,6 +36,8 @@ const App: React.FC = () => {
       <Footer />
       {/* Floating AI Assistant leveraging Gemini API */}
       <AIAssistant />
+      {/* Vercel Web Analytics tracking */}
+      <Analytics />
     </div>
   );
 };
