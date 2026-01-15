@@ -1,0 +1,10 @@
+
+{
+  "name": "DOCCURE - Modern Healthcare & Telemedicine Platform",
+  "description": "A comprehensive healthcare landing page designed for conversion and trust, featuring doctor search, appointment booking, and patient-centric UX.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
